@@ -1,36 +1,29 @@
 package pt.rumos;
 
 public class Client {
-	
-	String clientName;
-	int clientNumber;
-	double clientBalance;
-	
+
+	private String clientName;
+	private int clientNumber;
+	private double clientBalance;
+
 	//TODO: system.in for name
-	
-	
-	public String getClientName() {
+
+
+	public String getClientName () {
 		return clientName;
 	}
 
-	public void setClientName(String clientName) {
-		this.clientName = clientName;
+	public void setClientName (String newClientName) {
+		this.clientName = newClientName;
 	}
 
 
-
-	public int getClientNumber() {
-		
-		//TODO: generate new number
-		
+	public int getClientNumber () {
 		return clientNumber;
 	}
 
-	public void setClientNumber(int clientNumber) {
-		this.clientNumber = clientNumber;
+	public void setClientNumber (int newClientNumber) {
+		this.clientNumber = newClientNumber;
 	}
-
-	
-
 
 }
