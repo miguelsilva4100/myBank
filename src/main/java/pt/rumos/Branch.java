@@ -5,18 +5,18 @@ public class Branch {
     int branchCode;
     int clientCount;
 
-    public String getAgencyName() {
+    public String getBranchName() {
         return branchName;
     }
-    public void setAgencyName(String newAgencyName) {
-        this.branchName = newAgencyName;
+    public void setBranchName(String newBranchName) {
+        this.branchName = newBranchName;
     }
 
-    public int getAgencyCode() {
+    public int getBranchCode() {
         return branchCode;
     }
-    public void setAgencyCode(int newAgencyCode) {
-        this.branchCode = newAgencyCode;
+    public void setBranchCode(int newBranchCode) {
+        this.branchCode = newBranchCode;
     }
 
     public int getClientCount() {
